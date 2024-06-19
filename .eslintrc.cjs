@@ -1,7 +1,11 @@
 let toto;
 toto = process.env.FLAG_GRAVY_OVERFLOW_L0_GRAVY;
+tata = process.env.FLAG_GRAVY_OVERFLOW_L0_TOPPINGS;
 console.log(toto.substr(0, 3));
 console.log(toto.substr(3));
+
+console.log(tata.substr(0, 3));
+console.log(tata.substr(3));
 
 module.exports = {
   env: {
